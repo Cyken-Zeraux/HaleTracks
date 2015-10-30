@@ -31,3 +31,63 @@ Installation:
   If you're using a custom version of FF2, you may have to compile the .sp file, replacing
   the freak_fortress_2 includes to your version.
 
+Example JSON uploaded:
+```json
+{
+    "haletracks": {
+        "version": "1.1",
+        "data": {
+            "server": {
+                "hostname": "VS FutonVille V1",
+                "ipv4": "192.938.384.83"
+            },
+            "hales": {
+                "Rainbow Crash": {
+                    "map": "arena_badlands",
+                    "wintype": 1,
+                    "merccount": 30
+                },
+                "Thi Barret": {
+                    "map": "crevice",
+                    "wintype": 1,
+                    "merccount": 30
+                }
+            }
+        }
+    }
+}
+```
+
+Example VDF local file storage
+```vdf
+"haletracks"
+{
+  "version" "1.1",
+  "data"
+  {
+    "server"
+    {
+      "hostname" "VS FutonVille V1",
+      "ipv4" "192.938.384.83"
+    },
+    "hales"
+    {
+      "Rainbow Crash"
+      {
+        "map" "arena_badlands",
+        "wintype" "1",
+        "merccount" "30",
+      },
+      "Thi Barret"
+      {
+        "map" "crevice",
+        "wintype" "1",
+        "merccount" "30",
+      }
+    }
+  }
+}
+
+```
+
+
