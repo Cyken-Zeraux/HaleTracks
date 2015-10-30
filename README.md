@@ -59,7 +59,7 @@ Example JSON uploaded:
 ```
 
 Example VDF local file storage
-```vdf
+```json
 "haletracks"
 {
   "version" "1.1",
