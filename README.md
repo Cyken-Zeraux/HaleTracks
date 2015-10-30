@@ -43,14 +43,38 @@ Example JSON uploaded:
             },
             "hales": {
                 "Rainbow Crash": {
-                    "map": "arena_badlands",
-                    "wintype": 1,
-                    "merccount": 30
+                    "1": {
+                        "map": "arena_badlands",
+                        "wintype": 1,
+                        "merccount": 30
+                    },
+                    "2": {
+                        "map": "mc_village_beta",
+                        "wintype": 3,
+                        "merccount": 28
+                    },
+                    "3": {
+                        "map": "2fort_desk",
+                        "wintype": 0,
+                        "merccount": 10
+                    }
                 },
                 "Thi Barret": {
-                    "map": "crevice",
-                    "wintype": 1,
-                    "merccount": 30
+                    "1": {
+                        "map": "crevice",
+                        "wintype": 1,
+                        "merccount": 30
+                    },
+                    "2": {
+                        "map": "mc_village_beta",
+                        "wintype": 1,
+                        "merccount": 15
+                    },
+                    "3": {
+                        "map": "2fort_desk",
+                        "wintype": 2,
+                        "merccount": 30
+                    }
                 }
             }
         }
@@ -67,22 +91,51 @@ Example VDF local file storage
   {
     "server"
     {
-      "hostname" "VS FutonVille V1",
+      "hostname" "VS FutonVille V1"
       "ipv4" "192.938.384.83"
-    },
+    }
     "hales"
     {
-      "Rainbow Crash"
-      {
-        "map" "arena_badlands",
-        "wintype" "1",
-        "merccount" "30",
-      },
-      "Thi Barret"
-      {
-        "map" "crevice",
-        "wintype" "1",
-        "merccount" "30",
+    "Rainbow Crash"
+    {
+        "1"
+        {
+          "map": "arena_badlands"
+          "wintype": "1"
+          "merccount": "30"
+        }
+        "2"
+        {
+          "map": "mc_village_beta"
+          "wintype": "3"
+          "merccount": "28"
+        }
+        "3"
+        {
+          "map": "2fort_desk"
+          "wintype": "0"
+          "merccount": "10"
+        }
+    }
+    "Thi Barret": {
+        "1"
+        {
+          "map": "crevice"
+          "wintype": "1"
+          "merccount": "30"
+        }
+        "2"
+        {
+          "map": "mc_village_beta"
+          "wintype": "1"
+          "merccount": "15"
+        }
+        "3"
+        {
+          "map": "2fort_desk"
+          "wintype": "2"
+          "merccount": "30"
+        }
       }
     }
   }
