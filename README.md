@@ -32,7 +32,7 @@ Installation:
   the freak_fortress_2 includes to your version.
 
 Example JSON uploaded:
-```json
+```
 {
     "haletracks": {
         "version": "1.1",
