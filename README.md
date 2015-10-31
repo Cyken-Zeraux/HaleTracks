@@ -14,6 +14,9 @@ Supports HTTP upload with JSON and local stat storage with the VDF KeyValues fil
 | Map |
 | Server Hostname |
 | Server Public IP |
+| Full Health |
+| Health on round end |
+
 
 HaleTracks can detect all forms of triggered suicide, such as the 'kill' command.
 By default, triggered suicide will throw out the the round data to preserve overall data accuracy.
