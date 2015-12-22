@@ -36,114 +36,98 @@ Installation:
 
 Example JSON uploaded:
 ```json
-{
-    "haletracks": {
-        "version": "1.1",
-        "data": {
-            "server": {
-                "hostname": "VS FutonVille V1",
-                "ipv4": "192.938.384.83"
-            },
-            "hales": {
-                "Rainbow Crash": {
-                    "1": {
-                        "map": "arena_badlands",
-                        "wintype": 1,
-                        "merccount": 30
-                    },
-                    "2": {
-                        "map": "mc_village_beta",
-                        "wintype": 3,
-                        "merccount": 28
-                    },
-                    "3": {
-                        "map": "2fort_desk",
-                        "wintype": 0,
-                        "merccount": 10
-                    }
-                },
-                "Thi Barret": {
-                    "1": {
-                        "map": "crevice",
-                        "wintype": 1,
-                        "merccount": 30
-                    },
-                    "2": {
-                        "map": "mc_village_beta",
-                        "wintype": 1,
-                        "merccount": 15
-                    },
-                    "3": {
-                        "map": "2fort_desk",
-                        "wintype": 2,
-                        "merccount": 30
-                    }
-                }
-            }
-        }
-    }
+{ 
+	"haletracks": {
+		"version": "1.1",
+		"hostname": "Test Futon",
+		"address": "74.127.175",
+		"map": "arena_badlands",
+		"starttime": "12-21-15 23:28:00", 
+		"endtime": "12-21-15 23:31:24", 
+		"winteam": 2,
+		"winreason": 2,
+		"bluescore": 0,
+		"redscore": 7, 
+		"mercs": { 
+			"team": "2", 
+			"startcount": "5", 
+			"endcount": "5", 
+			"inroundspawns": "1", 
+			"deaths": "0", 
+			"disconnects": "0", 
+			"classdamage": { 
+				"scout": { 
+					"damage": 0,
+					"ffdamage": 0
+				}, 
+				"soldier": { 
+					"damage": 6292,
+					"ffdamage": "0"
+				},
+				"pyro": { 
+					"damage": 0,
+					"ffdamage": 0
+				},   
+				"demoman": { 
+					"damage": 0,
+					"ffdamage": 0
+				}, 
+				"heavy": { 
+					"damage": 0,
+					"ffdamage": 0
+				},
+				"engineer": { 
+					"damage": 0,
+					"ffdamage": 0
+				},   
+				"medic": { 
+					"damage": 0,
+					"ffdamage": 0
+				}, 
+				"sniper": { 
+					"damage": 0,
+					"ffdamage": 0
+				},
+				"spy": { 
+					"damage": 0,
+					"ffdamage": 0
+				 } 
+			} 
+		}, 
+		"hales": {
+			"team": 3, 
+			"haletitle": "Vagineer",
+			"afkcount": 1, 
+			"suicidecount": 0, 
+			"disconnectcount": 0, 
+			"botcount": 1,  
+			"haledropped": false, 
+			"nohale": false, 
+			"halelist": {
+				"0": {
+					"title": "Vagineer",
+					"health": 0,
+					"maxhealth": 6074,
+					"lives": 1,
+					"maxlives": 1,
+					"isafk": true,
+					"isbot": true,
+					"issuicide": false,
+					"isdisconnect": false
+				}
+			}
+		},   
+		"minions": {
+			"startcount": 0,
+			"endcount": 0,
+			"inroundspawns": 0,
+			"deaths": 0,
+			"disconnects": 0,
+			"damagecount": 0,
+			"ffdamagecount": 0 
+		}       
+	} 
 }
-```
-
-Example VDF local file storage
-```
-"haletracks"
-{
-  "version" "1.1",
-  "data"
-  {
-    "server"
-    {
-      "hostname" "VS FutonVille V1"
-      "ipv4" "192.938.384.83"
-    }
-    "hales"
-    {
-    "Rainbow Crash"
-    {
-        "1"
-        {
-          "map": "arena_badlands"
-          "wintype": "1"
-          "merccount": "30"
-        }
-        "2"
-        {
-          "map": "mc_village_beta"
-          "wintype": "3"
-          "merccount": "28"
-        }
-        "3"
-        {
-          "map": "2fort_desk"
-          "wintype": "0"
-          "merccount": "10"
-        }
-    }
-    "Thi Barret": {
-        "1"
-        {
-          "map": "crevice"
-          "wintype": "1"
-          "merccount": "30"
-        }
-        "2"
-        {
-          "map": "mc_village_beta"
-          "wintype": "1"
-          "merccount": "15"
-        }
-        "3"
-        {
-          "map": "2fort_desk"
-          "wintype": "2"
-          "merccount": "30"
-        }
-      }
-    }
-  }
-}
-
 ```
 
 
